@@ -1,0 +1,38 @@
+<!-- 
+ 
+  Imagenes
+
+  Para colocar imagenes dentro dle html utilisamos la etiqueta:
+
+    <img />
+
+  Es una etiqueta de autocierre (selfclosing). En html 5 no es necesaria la /, pero como buena practica la sguimos usando.
+
+  El atributo src (source u origen) le indica a la etiqueta la imagen a mostrar.
+  Puede recibir una url externa o el path (ubicacion) del elemento interno.
+
+  El atributo alt (aternative o texto lternativo) es un conjunto de caracteres que se mostraran en caso de que la imagen no pueda ser renderisada por el navegador. Tambien ayuda a mejorar la accesibilidad en navegadores con asistentes de voz. Una buna practiva es siempre declarar este atributo con su valor.
+
+  Los atributos wifth y height nos permiten manipular el tamaño de las imagenes directamente en el html. No es muy recomendable pero es posible hacerlo, lo ideal es hacerlo con css.
+
+-->
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🗺 Imagenes</title>
+  </head>
+  <body>
+    
+    <h1>🗺 Imagenes</h1>
+    <p>Las imagenes nos permiten colocar elementos visuales en los ditios web.</p>
+    
+    <h2>Imgen externa</h2>
+    <img src="https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg" alt="fotografia de un gatito tierno de ojos cafes y color naranja sobre un mueble blanco" width="400px" height="auto"/>
+
+    <h2>Imagen interna</h2>
+    <img src="./imagenes/Melmetal.png" alt="Ilustracion del mejor pokemon tipo acero llamado Melmetal" width="500px">
+  
+  </body>
+  </html>
