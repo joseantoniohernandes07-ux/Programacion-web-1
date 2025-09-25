@@ -1,0 +1,51 @@
+<!-- 
+  Audio y video
+
+ Estas etiquetas nos permiten insertar contenido multimedia
+
+   <audio></audio>
+
+   <video></video>
+
+Dentro de estas etiquetas se define una etiqueta de origen.
+
+   <source />
+
+ Parámetros
+
+   -controls: muestra los controles
+   -autoplay: esto reproduce automáticamente
+   -loop: repite el contenido infinitamente.
+   -mute: no reproduce el audio.
+
+
+ A source le pasamos el parametro "src" donde resibe como valor la rl o la ubicacion del contenido.
+
+-->
+
+
+ <!DOCTYPE html> 
+ <html lang="es">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔈Audio y video📹</title>
+ </head>
+ <body>
+  <h1>🔈Audio y video📹</h1>
+ <h2>Contenido de audio</h2>
+
+ <audio controls autoplay muted loop>
+  <source src="./Audio/freepik-clearpath.mp3" />
+  Tu navegador no es compatible con el contenido multimedia.
+ </audio>
+
+ <h2> Contenido de video</h2>
+
+ <video controls autoplay muted loop width="480px">
+  <source src="./Video/perrito en el espejo.mp4" />
+ Tu navegador no es compatible con el contenido multimedia, cambia a un navegador más moderno no seas weebas!
+</video>
+
+ </body>
+ </html>
