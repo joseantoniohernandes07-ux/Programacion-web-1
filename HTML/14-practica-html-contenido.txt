@@ -1,0 +1,68 @@
+Practica de HTML
+
+Objetivo crear una estructura de HTML con etiquetas, semanticas y elementos como: textos, imagenes y videos. Tambien agregaremos un formulario para solicitar el nombre y correo electronico del usuario.
+
+Tema:
+
+Vamos a legir una historia con trilogia. 2 capitulos o peliculas o comics
+*Necesitamos la siguiente informacion:
+
+  1. Introduccion a la historia general.
+  2. Historia y descripcion de cada capitulo.
+  3. Sinopsis de la historia.
+  4. Personajes principales, con breve descripcion.
+  5. Trailers oficiales de cada capitulo.
+  6. Formulario
+
+--------
+La era de hielo (ice ige)
+
+1. Introducción a la Historia General
+La saga de La Era de Hielo se ambienta durante la época prehistórica de la Tierra, principalmente la Edad de Hielo, donde los animales se enfrentan a desafíos como el clima extremo, las migraciones masivas y los cambios geológicos. La historia central gira en torno a una peculiar y entrañable manada formada por un mamut, un perezoso y un tigre dientes de sable, quienes, a pesar de sus diferencias iniciales, desarrollan un profundo vínculo familiar mientras navegan por los peligros de su mundo en constante cambio.
+
+Un elemento cómico y recurrente en todas las películas es la sub-trama de Scrat, una ardilla-rata dientes de sable obsesionada con conseguir su bellota, cuyas acciones accidentales a menudo desencadenan los eventos catastróficos que impulsan la trama principal (como la formación de los continentes o un asteroide).
+
+2. Historia y Descripción de Cada Película
+Película	Año	Descripción de la Historia
+1. La Era de Hielo	2002	Manny (un mamut solitario), Sid (un perezoso torpe) y Diego (un tigre dientes de sable) se encuentran accidentalmente mientras la Edad de Hielo comienza y deciden llevar a un bebé humano perdido de vuelta con su tribu. Su viaje forzado los une en una manada poco convencional.
+2. La Era de Hielo 2: El Deshielo	2006	La manada descubre que el valle donde viven se está inundando debido al inminente deshielo, provocado por el cambio climático. Deben unirse a la migración de otros animales para alcanzar un barco salvavidas al otro extremo del valle. En el camino, Manny conoce a Ellie, una mamut que cree ser una zarigüeya.
+3. La Era de Hielo 3: El Origen de los Dinosaurios	2009	Manny y Ellie esperan un bebé, lo que hace que Sid se sienta excluido. Cuando Sid encuentra tres huevos misteriosos y decide criarlos, descubre que son de dinosaurio, lo que lo lleva a un mundo subterráneo inexplorado habitado por estos gigantes. La manada se aventura a rescatarlo con la ayuda del loco comadreja Buck.
+
+3. Sinopsis de la Historia
+La saga de La Era de Hielo narra el viaje de tres especies diferentes —un mamut (Manny), un perezoso (Sid) y un tigre dientes de sable (Diego)— que forman una "manada" unida por el destino y el afecto mutuo. Inicialmente, su misión es devolver un bebé humano a salvo. A medida que pasan las películas, enfrentan una serie de desafíos naturales monumentales, desde el deshielo y las inundaciones, hasta el descubrimiento de un mundo subterráneo de dinosaurios, la separación de los continentes y la amenaza de un asteroide. El hilo conductor es la evolución de su relación: la manada se expande con nuevas incorporaciones como la mamut Ellie, sus hijos (Mora), y personajes secundarios como las zarigüeyas y la comadreja Buck, demostrando que la familia no se define por la especie, sino por el amor y la lealtad. Todo esto, siempre con el caótico y persistente Scrat y su bellota provocando el siguiente desastre geológico.
+
+4. Personajes Principales, con Breve Descripción
+Personaje	Especie	Descripción Breve
+Manfred "Manny"	Mamut lanudo	El líder sensato, protector y a menudo malhumorado de la manada. Inicialmente solitario y melancólico, pero se convierte en un dedicado esposo y padre.
+Sid	Perezoso gigante	El miembro más torpe, de buen corazón y parlanchín del grupo. A menudo causa problemas, pero tiene un lado cariñoso y siempre busca ser parte de una familia.
+Diego	Tigre dientes de sable	Inicialmente un depredador solitario enviado a recuperar al bebé, se redime y se convierte en un amigo leal y el miembro más valiente y cauteloso de la manada.
+Scrat	Ardilla-Rata Dientes de Sable	Un personaje cómico cuya única obsesión es conseguir su preciada bellota. Sus intentos fallidos a menudo tienen consecuencias catastróficas a escala global.
+Ellie	Mamut lanudo	La compañera de Manny, quien al principio creció creyendo que era una zarigüeya. Es enérgica, aventurera y es la madre de Mora.
+Buckminster "Buck" Wild	Comadreja	Un aventurero y cazador tuerto que vive en el Mundo Perdido de los dinosaurios. Es excéntrico, valiente y experto en supervivencia, actuando como guía para la manada en varias ocasiones.
+Mora (Peaches)	Mamut lanudo	La hija de Manny y Ellie. Una adolescente curiosa y rebelde en las últimas películas, cuyo deseo de independencia a menudo choca con la sobreprotección de su padre.
+
+5. Tráileres Oficiales de Cada Película
+Aquí tienes enlaces a los tráileres oficiales (en español o subtitulados) de cada capítulo principal de la saga:
+
+La Era de Hielo (Ice Age, 2002): Tráiler Oficial https://www.dailymotion.com/video/x93t1xy
+
+La Era de Hielo 2: El Deshielo (The Meltdown, 2006): Tráiler Oficial https://www.youtube.com/watch?v=MSRoyJ2OwsM&t=1s
+
+La Era de Hielo 3: El Origen de los Dinosaurios (Dawn of the Dinosaurs, 2009): Tráiler Oficial https://www.youtube.com/watch?v=HWfzpkmeISU&t=1s
+
+Nombre del proyecto: La Era de Hielo
+
+1. ¿Cuál es tu personaje favorito y por qué?
+_____________________________________________________
+
+2. ¿Qué valores transmite la saga?
+_____________________________________________________
+
+3. ¿Cuál película te gustó más? Explica.
+_____________________________________________________
+
+4. ¿Qué aprendiste sobre la prehistoria?
+_____________________________________________________
+
+5. ¿Qué escena te pareció más divertida?
+_____________________________________________________

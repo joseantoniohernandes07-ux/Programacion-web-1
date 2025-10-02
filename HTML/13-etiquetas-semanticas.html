@@ -1,0 +1,117 @@
+<!-- 
+ 
+ Las etiquetas semanticas
+
+ Las etiquetas semanticas significan un tipo de contenido para el navegador. Esto le ayuda a clasificar la infomacion y mejorar la experiencia del usuario.
+
+  El buscador de Google aprobecha esta sémantica para puntear mejor a las paginas web.
+
+  <header>...</header> 👉 Define el encabezado de un documento o seccion.
+
+  <nav>...</nav> 👉 Defin eun conjunto de enlaces de navegacion. General mente se usa para la navegacon principal.
+
+  <main>...</main> 👉 Defie el contenido prinsipal del documento.
+
+  <section>...</section> 👉 Define una seccion en un documento.
+
+  <article>...</article> 👉 Define un articulo independiente.
+
+  <aside>...</aside> 👉 Define contenido adicional o complementaria.
+
+  <footer>...</footer> 👉 Define elpie de pagina de un documento o sección:
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📖 Etiquetas Semanticas</title>
+</head>
+<body>
+  <h1>📖 Etiquetas Semanticas</h1>
+
+  <header>
+    Soy el encabezado de la Página. Pedo contener un texto principal, el logotipo y los enlaces de navegación.
+    <nav>Inicio | Acerca de | Proyectos | Contacto </nav>
+  </header>
+  <main>
+    Aqui va el contenido principal de la pagina y general mente seccionado.
+
+    <section>
+      <h2>Biografia</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam soluta deleniti quos provident possimus in, ipsum aliquam porro. Amet, necessitatibus repellendus? Commodi earum laboriosam deleniti animi dicta libero iusto similique.</p>
+    </section>
+    
+    <section>
+      <header>
+        <h2>Proyectos</h2>
+      </header>
+
+      <article>
+        <h3>Primer proyecto</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, asperiores corporis dolores ipsa suscipit libero tempora. Alias amet, sunt aliquam rerum modi nisi tempora sequi, illum dicta hic, sapiente velit!</p>
+      </article>
+
+       <article>
+        <h3>Segundo proyecto</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, asperiores corporis dolores ipsa suscipit libero tempora. Alias amet, sunt aliquam rerum modi nisi tempora sequi, illum dicta hic, sapiente velit!</p>
+      </article>
+
+       <article>
+        <h3>Terser proyecto</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, asperiores corporis dolores ipsa suscipit libero tempora. Alias amet, sunt aliquam rerum modi nisi tempora sequi, illum dicta hic, sapiente velit!</p>
+      </article>
+
+      <footer>
+        <span>Creador: Gabogabito</span>
+      </footer>
+
+    </section>
+
+    <section>
+      <div>
+        <h2>Contacto</h2>
+      </div>
+    
+      <div>
+        <form action="">
+          <label for="">Email</label>
+          <input type="email" name="email" id="email">
+          <button>Suscribirse</button>
+        </form>
+      </div>
+
+      <div>
+        <p>Whatsapp: <span>+99 123 456 7890</span></p>
+      </div>
+    </section>
+  </main>
+  <aside>
+    Aqi vams a tener contenido secundario:
+    <section>
+      <h3>Portafolios amigos</h3>
+      <ul>
+        <li>Portafolio de Heidy</li>
+        <li>Portafolio de Toño</li>
+        <li>Portafolio de Astrid</li>
+        <li>Portafolio de Diana</li>
+        <li>Portafolio de Joshua</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Patrocinadores</h3>
+      <div>
+        <img src="Banner-patrocinador.png" alt="Logotipo de Tortas Chiks">
+      </div>
+    </section>
+  </aside>
+  <footer>
+    Pie de la pagina contiene el cierre de nuestro documento. Suele contener navegaciones secundarias, enlaces a paginas de legales, enlaces a redes sociales,copyrigth, incluso formularios 
+
+    <p>copyrigth.©2025</p>
+  </footer>
+</body>
+</html>
