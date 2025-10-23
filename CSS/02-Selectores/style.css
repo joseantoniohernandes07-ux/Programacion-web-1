@@ -1,0 +1,72 @@
+/* 
+ 
+ Selectores
+
+
+  Son declaraciones que permiten seleccionar y aplicar estilos a los elementos de HTML
+
+
+  Tipos de selectores
+  1. Basicos
+   Selector universal 👉 Selecciona todos los elementos del html se usa el *
+
+   Selector de Elemento 👉 Selecciona un tipo der elemento de html con su nombre
+
+
+*/
+
+*{
+ border: 2px solid red;
+ /* Se utiliza para hacer un resset o normalixar lso estilos iniciales del navegador*/
+ margin: 0;
+ padding: 0;
+} 
+body{
+  background-color: blue;
+}
+
+header{
+  background-color: lightcoral;
+}
+
+h1{
+  color: green;
+}
+
+li{
+  color: yellow;
+}
+
+/* 
+
+ 2. Los selectores de clase y ID
+
+ Seleccionan los elementos de html que tienen definida una clase o un id en sus atributos.
+
+ clase 👉 se usa la notacion de nombre .nambre-clase
+ id 👉 se sua la anotacion de #nombreId
+
+*/
+
+.puchungis {
+ border: none;
+ background-color: yellow;
+}
+
+#titulo {
+  color: purple;
+  font-size: 48px;
+  border: none;
+}
+
+.frase {
+  border: none;
+  color: blueviolet;
+  font-size: 24px;
+}
+
+#matona {
+  color: magenta;
+  font-family: sans-serif;
+  font-weight: 900;
+}
