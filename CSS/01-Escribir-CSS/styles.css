@@ -1,0 +1,26 @@
+/* 
+Esto es un bloque de comentario en CSS
+
+shorcut alt + shift + A
+
+Nos sirve para documentar o comentar el codigo de CSS
+*/
+/* 
+  Sintaxis
+  
+  La sintaxis se usa para definir los estilos que se aplican a los elementos del html.
+
+  En CSS consta de 3 componentes: 
+   Selector{
+    propiedad: valor;
+   }
+    Selector  El elemento de HTML alque se le plica el estilo.
+    Propiedad Es la caracteristica que se definira en el elemento.
+    Valor El estilo se aplica a la propiedad.
+
+    El conjunto de estos elementos se les conoce como Reglas de CSS,
+*/
+body{
+  background-color: gray;
+  color:whitesmoke
+}
