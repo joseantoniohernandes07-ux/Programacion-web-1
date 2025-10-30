@@ -70,3 +70,88 @@ li{
   font-family: sans-serif;
   font-weight: 900;
 }
+
+/* 
+  
+ Selectores combinados
+
+ - Descendientes. Seleccionan elementos dentro de otros elementos.
+    
+    Elemento ElementoInterno {
+    ...
+    }
+*/
+section h2{
+  color: white;
+  font-family: sans-serif;
+  border: none;
+}
+body .galeria {
+  border: non;
+  background-color: rgb(49, 86, 49);  
+}
+
+.galeria .Monstruos {
+  border: none;
+  background-color: rgb(126, 55, 55);  
+}
+
+/* 
+ Selectores combinados
+
+ -Hijo Directo. Selecciona elementos que son hijos directos de un elemento padre.
+    
+    elemento > elementoHijo{
+     ...
+    }
+   
+
+*/
+
+.Monstruos >li {
+  border: none;
+  text-align : center;
+  margin-bottom: 24px;
+  background-color: purple;
+
+}
+
+
+
+
+/* 
+
+  Selector combinado
+  
+  -Elemento adyacente. Selecciona el primer elemento inmediatamentre despues de otro elemento.
+  Es decir su hermano inmediato.
+
+    elemento + elementoAdyacente {
+    ...
+   }
+
+
+*/
+
+.primer-hermano + li {
+  font-size: 2rem;
+  color: pink;
+}
+
+
+/* 
+
+ Selectores combinados
+
+ -Hermanos General. Selecciona todos los hermanos despues de un elemento.
+
+  elemento ~ elementoHermano {
+    ...
+  }
+
+*/
+
+.primer-hermano ~ li {
+  font-family: monospace;
+  text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+/* 
+
+ Fuentes
+
+ Las fuentes un aspecto fundamental del diseño web,
+ influyen en la estetica, legibilidad y jerarquia visual.
+
+ Para definir una familia tipografca usamos la propiedad:
+  
+   font-family: "nombre de la fuente";
+
+  1. Web safe fonts > Fuentes web seguras. son tipografias predeterminadas y que se pueden usar en cualquier dispocitivo, sistema operativo o navegador web.
+
+  Por estilo o categoria > keywords o palabras
+
+    -serif
+    -sans-serif
+    -monospace
+    -cursive > script
+    -fantasy > decorativa
+  por nombre de la familia tipografica
+
+   -Arial
+   -"Times New Roman"
+   -Verdana
+   -Geneva
+   -Tahoma
+   ...
+
+  Los valores con mas de una palabra se escriben entre comillas dobles "" o simples ''
+
+
+  La recomendacion es usar maximo 2 fuentes de respaldo, si por alguna razon no se craga la fuente principal, se cargaran las secundarias. Los nombres se separan por comas.
+
+*/
+
+h1 {
+  font-family: Arial;
+  font-family: "times New Roman";
+  font-family: Verdana;
+  font-family: Tahoma;
+  font-family: "Gill Sans";
+}
+
+/* 
+
+ Fuentes personalisadas. Son fuentes que nosotros elegimos de acuerdo al estilo de la web o a los lineamientos de la marca grafica.
+
+ -Fuentes externas. Se llama a traves de recursos en linea o servidores remotos. Por ejemplo Google Fonts
+ -Fuentes internas. Se llaman a traves de nuestras carpetas o servidor propio
+
+*/
+h2 {
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+/* 
+
+ Llamamos a nuestra tipografia interna con la sentencia @font-face
+ 
+*/
+@font-face {
+  font-family: "BitcountGridSingle_Cursive-Regular";
+src: url(./BitcountGridSingle_Cursive-Regular.ttf), format("ttf");
+}
+
+p {
+  font-family: "BitcountGridSingle_Cursive-Regular";
+}
