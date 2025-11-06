@@ -1,0 +1,130 @@
+body {
+  background-color: blueviolet;
+}
+
+/* 
+
+  Propiedades de texto
+
+  Estan relacionada con el estilo de los textos en HTML.
+
+  Controlamos su apariencia, espaciado, alineacion y decoracion.
+
+  Propiedades principales
+
+   Color define el color de texto y puede recibir diferentesvalores: Keywords,hexadecimal, rgb, rgba, hsl, hsla, transparent. La "a" en el sistema rgba significa alpha chanel o canal alpha.
+
+  Font-family 👉define la familia tipografica del texto. Recibiendo los valores como: keywords, nombre de la familia, si tiene mas de dos palabras se colocan entre comillas. si tenemos fuentes de respaldo se separan por ,
+
+  font-size 👉define el tamaño de texto. Acepta valores en px, em, rem, porcentaje y funciones.
+
+  font-style 👉El estilo de fuente y recibe tres parametros: normal, italic y oblique.
+
+  font.weigth 👉Define el peso tipogrfico si la familia tipografica lo permite.
+*/
+
+h1 {
+  color: white;
+  color: red;
+  color: darkcyan;
+  color: lightseagreen;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+p {
+  color: #FFFFFF;
+  color: #abc229;
+  color: #dfbbb1;
+  font-family: "gil sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;/* Regular */
+  font-weight: 900;/* Black */
+  font-weight: 100;/* X-Light */
+}
+a {
+  color: #4b3;
+  font-family: Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 200;
+}
+
+
+/* 
+   El exadecimal se divide en grupo de 2 caracteres
+
+   # 00 00 00
+     R  G  B
+
+     0 al 9 y de la A a F -> 16 caracteres. valor 0 representa el color mas obscuro y la f el mas Luminosos.
+
+    cuando los tres pares tienen el mismo valor se pueden abreviar.
+
+    # FF FF FF > #FFF
+
+  */
+
+/* 
+  Propiedades de alineacion
+
+  text-aling Define la alineacion del texto. Recibe los valores left, right ,center, justify, start y end.
+
+*/
+
+h1 {
+  text-align: left; /* Default */
+  text-align: right;
+  text-align: center;
+  text-align: justify; /* Parrafo y tenga esacio para distribuir */
+  text-align: start;
+  text-align: end;
+}
+
+p {
+  text-align: right;
+}
+
+a {
+ text-align: justify; 
+}
+
+/* 
+  Propiedades de Estilo
+
+  tex-decoration Añade una linea Transversal al texto. Recbe valores: none, underline, overline, line-through
+
+  Text-transform: Esto controla la capitalizacion del texto. Recibe valores:uppercase, lowercase y capitalize.
+
+  line-height: Espacio entre letras. Recibe valres en px, em, rem y %
+
+  word-spacing: Espacion entre ppalabras. Recibe valores en px, em, rem, %
+
+  text-shadow: Sombra de texto. La sintaxis es en el siguiente orden: offset-x offset-y blur color.
+
+*/
+
+.importan {
+  color: red;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;/* mayusculas */
+  text-transform: lowercase;/* minusculas */
+  text-transform: capitalize;/* Primera letra mayuscula */
+  letter-spacing: 10px;
+  text-shadow: 10px 10px 10px black;
+}
+
+p {
+  line-height: 25px;
+  word-spacing: 20px;
+}

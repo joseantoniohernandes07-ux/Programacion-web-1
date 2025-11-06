@@ -1,0 +1,58 @@
+body {
+  background-color: darkblue;
+  font-family: sans-serif;
+  color: whitesmoke;
+  margin: 0px;
+  height: 100vh;/* U. Relativa significa > Viewport Height */
+}
+
+/* 
+  Bloque y Linea
+
+  Los elementos de bloque miden todo el ancho disponible de su contenedor y miden el alto de su contenido.
+
+  Los elementos de linea miden el ancho y el alto de su contenido.
+
+  Ancho (width) y Alto (heigth)
+
+  Nos sirven para establecer las dimenciones de los elemnentos de html.
+
+  Width define el ancho y recibe valores en unidades en px, %, em, rem, auto.
+
+  Heigth define la altura y recibe valores en unidades en px, %, em, rem, auto.
+  
+  *si no se especifica la altura a un elemento de bloqueo, el elemento ajustara su altura al contenido.
+
+  *Se recomiendo usar unidades relativas para mejorar la dapatabilidad de los elementos del html.
+
+  Los elementos de inea no reaccionan al ancho y alto especificopor default se ajustaran al contenido
+
+  Si queremos que un elemento de linea responda al ancho y al alto necesitamos cambiar su comportamiento de visualisacion con la propiedad display
+
+  Display determina el comportamiento de visualisacion de un elemento en el html. Recibe valores como: inline-block y block
+
+*/
+
+div {
+  background-color: green;
+  width: auto;/* Default */
+  width: 300px;/* U. Absoluta */
+  width: 50%;/* U. Relativa */
+  
+  height: auto;/* Default */
+  height: 200px;/* U. Absoluta */
+  height: 50%;/* U. Relativa - Funciona cuando el padre tiene una altura definida */
+
+/*   display: inline; */ /* Esto cambia un elemento de bloque a linea */
+}
+
+span {
+  background-color: brown;
+  width: auto;/* Default */
+  width: 400px;/* No funciona */
+  width: 50%;/* No funciona */
+  height: auto;/* Default > Depende del Contenido */
+  height: 500px;/* No funciona */
+  height: 50%;/* No funciona */
+  display: block;
+}
