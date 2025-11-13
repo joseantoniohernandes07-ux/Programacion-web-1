@@ -1,0 +1,154 @@
+/* Resset Basico */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 24px;
+}
+
+i {
+  color: red;
+}
+
+ul {
+  list-style: none;/* Esto quita los bulets por defaul */
+}
+
+/* 
+
+  Modelo de caja (Bow Model)
+
+  Es un concepto fundamental de CSS wue se describe como los elemenetos de una pagina web se organizan y calculan su tamaño
+
+  1. Contenido
+
+  Es el area donde se encuentra el texto, las imagenes y algun otro elemento hjo. El tamaño de esta area se define con width y heigth.
+
+  2. Relleno (padding)
+
+  Es el espacio entre el contenido y el borde de la caja. Ayuda a crear un espacio interno alrededor del contenido.
+
+  Esta propiedad es un "shorthand" o propiedades abreviada, que controla los 4 lados posiblesde la caja.
+
+    padding: top rigth buttom left; // 4 valores
+    padding: topleft/rigth buttom ; // 3 valores
+    padding: top/buttom left/rigth; // 3 valores
+    padding: t/b/l/r; // 1 valor
+
+  Propiedades indiviuales
+
+    Padding-buttom
+    Padding-left
+    Padding-rigth
+    Padding-top
+
+  3. Borde (Border)
+
+  El area que rodea al contenido y al padding. Podemos modificar su grosor, estilo y color. Tambien es un shorthand
+
+  Shorthand
+
+    border: whidth styles color;
+
+  Propidades individuales
+
+    border-width: valor
+    border-style: valor
+    border-color: valor
+  
+  Propiedades por lado
+
+    border-top-width: valor;
+    border-rigth-width: valor;
+    border-buttom-width: valor;
+    border-left-width: valor;
+    
+    border-top-style: valor;
+    border-rigth-style: valor;
+    border-buttom-style: valor;
+    border-left-style: valor;
+
+    border-top-color: valor
+    border-rigth-color: valor
+    border-buttom-color: valor
+    border-left-color: valor
+
+  Valores de estilo de borde
+
+    -solid 👉
+    -dashed 👉
+    -dotted 👉
+    -double 👉
+    -groove 👉 biselado
+    -none 👉 por defecto
+    -hidden 👉
+  4. Margen
+
+  Permite crear un espaci entre el borde de un elemento y otros elementos de la pagina. Tambien es un shorthand.
+
+  Shorthand
+
+    Margin: top rigth bottom left; // 4 valores
+    Margin: top rigth/left bottom ; // 3 valores
+    Margin: top/bottom rigth/left  ; // 2 valores
+    Margin: t/r/b/l  ; // 1 valor
+
+  Propiedades individuales
+
+
+
+*/
+
+.Card {
+  width: 300px;
+  height: auto;
+  background-color: rgb(99, 99, 12);
+  padding: 24px;
+  padding: 24px 32px;
+  padding: 24px 32px 0px;
+  padding: 24px 32px 40px 48px;
+  background-color: blue;
+  border: 20px hidden rgb(0, 0, 0);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+/*.Card-title{
+   padding: 12px 0px;
+  background-color: rgb(55, 55, 144); 
+}*/
+.card-image {
+  padding-top: 8PX;
+  padding-bottom: 8PX;
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  margin: 24px 0px;
+  display: block;
+}
+
+/*.card-description {
+   width: 100%;
+  height: auto;
+  background-color: red;
+  border-top-width: 8px;
+  border-top-style: 2px;
+  border-top-color: black; 
+}*/
+
+/* .card-skill {
+  background-color: purple; 
+}*/
+ 
+/*.card-attack {
+   padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-style: 8px 15px 12px;
+  background-color: purple;
+  margin-bottom: 8px;
+} */
