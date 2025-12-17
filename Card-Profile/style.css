@@ -19,6 +19,12 @@ body {
   box-shadow: 0 24px 24px #00000039;
   border-radius: 12px;
   padding: 24px;
+  position: relative;/* El pad lo sua como referencia para posicionarse */
+  margin-top: 50px;
+}
+
+.profile-header {
+  margin-bottom: 24px;
 }
 
 .profile-photo {
@@ -36,4 +42,60 @@ body {
 .profile-details p {
   font-weight: 400;
   font-size: .875rem;
+}
+
+.profile-skills{
+  margin-bottom: 24px;
+}
+
+.profile-skills h3{
+  color: #262CDD;
+  font-size: 1.125rem;
+  margin-bottom: 16px;
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.skill-list li {
+  padding: 4px 8px;
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+.contact-button {
+  padding: 12px 8px;
+  color: #fff;
+  background-color: #25da1b;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+  background-color: #262CDD;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.profile-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #25da1b;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
